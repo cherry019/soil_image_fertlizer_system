@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+tensorflow
+keras
+Pillow
+opencv-python
+joblib
+requests
