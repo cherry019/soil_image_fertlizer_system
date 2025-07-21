@@ -35,18 +35,19 @@ This is a **mini machine learning project** built with **Streamlit**, which reco
 
 ## 📂 Project Structure
 
-soil-fertilizer-recommender/
-├── app.py
-├── pages/
-│ ├── 1_Home.py
-│ ├── 2_Soil_Detection.py
-│ └── 3_Recommendation.py
-├── model/
-│ └── soil_model.h5 / .pkl
-├── utils/
-│ └── helper.py
-├── images/
-│ └── sample.jpg
-├── requirements.txt
-└── README.md
+├── app.py # Main Streamlit app
+├── pages/ # Streamlit multipage files
+│ ├── 1_Home.py # Introduction and instructions
+│ ├── 2_Soil_Detection.py # Upload and predict soil type
+│ └── 3_Recommendation.py # Show fertilizer recommendation
+├── model/ # Trained ML/DL models
+│ └── soil_model.h5 # Keras/TensorFlow model (or .pkl for scikit-learn)
+├── utils/ # Helper functions
+│ └── helper.py # Utilities for preprocessing, translations, etc.
+├── images/ # Sample images or static assets
+│ └── sample.jpg # Example soil image
+├── requirements.txt # Required Python packages
+└── README.md # Project documentation
+
+
 
