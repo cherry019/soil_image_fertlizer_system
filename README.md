@@ -33,21 +33,29 @@ This is a **mini machine learning project** built with **Streamlit**, which reco
 
 ---
 
+
+---
+
+## 📸 How It Works
+
+1. **Upload a soil image** through the Streamlit UI.
+2. The image is processed and passed to a pre-trained model.
+3. The model predicts the **soil type**.
+4. Based on the prediction, the system recommends a **fertilizer** in:
+   - ✅ English
+   - ✅ Telugu
+5. Displays the result neatly in a clean layout.
+
+---
 ## 📂 Project Structure
 
-├── app.py # Main Streamlit app
-├── pages/ # Streamlit multipage files
-│ ├── 1_Home.py # Introduction and instructions
-│ ├── 2_Soil_Detection.py # Upload and predict soil type
-│ └── 3_Recommendation.py # Show fertilizer recommendation
-├── model/ # Trained ML/DL models
-│ └── soil_model.h5 # Keras/TensorFlow model (or .pkl for scikit-learn)
-├── utils/ # Helper functions
-│ └── helper.py # Utilities for preprocessing, translations, etc.
-├── images/ # Sample images or static assets
-│ └── sample.jpg # Example soil image
-├── requirements.txt # Required Python packages
-└── README.md # Project documentation
+## 🔧 Installation
+
+```bash
+git clone https://github.com/your-username/soil-fertilizer-recommender.git
+cd soil-fertilizer-recommender
+pip install -r requirements.txt
+streamlit run app.py
 
 
-
+## 📂 Project Structure
