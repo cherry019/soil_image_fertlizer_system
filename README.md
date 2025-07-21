@@ -47,7 +47,16 @@ This is a **mini machine learning project** built with **Streamlit**, which reco
 5. Displays the result neatly in a clean layout.
 
 ---
-## 📂 Project Structure
+
+## 🌾 Project Preview
+
+### 🧪 Soil Detection Page
+![Soil Detection](![WhatsApp Image 2025-07-15 at 22 58 12_e5d7003b](https://github.com/user-attachments/assets/a14f61ea-62a1-4fb4-9775-9f91757df83a)
+)
+
+### 🌱 Recommendation Page
+![Fertilizer Suggestion](![WhatsApp Image 2025-07-15 at 22 58 12_09aee4f7](https://github.com/user-attachments/assets/9587ea2e-679f-45ff-adb7-22b0f953f437)
+)
 
 ## 🔧 Installation
 
